@@ -77,6 +77,23 @@ span p:nth-child(1){
 	color: gray;
 	font-weight: 700px;
 }
+@media screen and (max-width: 820px){
+	body{
+	box-sizing: border-box;
+	padding-left: 60px;
+	padding-top: 8px;
+}
+
+.right{
+	float: right;
+	position: relative;
+	right: 90px;
+	width: 150px;
+	height: 220px;
+	background-color: #f2f7f4;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+}
 @media screen and (max-width: 768px){
 body{
 	box-sizing: border-box;
